@@ -20,7 +20,7 @@ public class Facebook_Login {
 	
 	@When("^I enter username and Password$")
 	public void I_enter_username_and_Password1() throws Throwable {
-		driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("ramanamuttana@gmail.com");
+		driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("");
 		driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("");
 	}
 	
