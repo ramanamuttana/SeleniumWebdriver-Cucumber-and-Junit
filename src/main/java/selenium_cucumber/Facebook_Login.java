@@ -20,8 +20,8 @@ public class Facebook_Login {
 	
 	@When("^I enter username and Password$")
 	public void I_enter_username_and_Password1() throws Throwable {
-		driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("");
-		driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("");
+		driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("give your email aadress");
+		driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("give your password");
 	}
 	
 	@Then("^I ahave to be on my home page$")
