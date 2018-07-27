@@ -1,2 +1,2 @@
 # SoftwareTesting
-Basic selenium Wedriver ,Cucucmber and Junit to test web applications
+Basic selenium Wedriver ,Cucucmber and Junit Example to test web applications
