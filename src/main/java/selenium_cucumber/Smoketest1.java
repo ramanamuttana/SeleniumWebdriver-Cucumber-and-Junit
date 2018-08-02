@@ -52,16 +52,16 @@ public class Smoketest1 {
 			driver.findElement(By.name("lastname")).sendKeys(userss.lastname);
 			driver.findElement(By.id("dob")).sendKeys("02/26/1992");
 			driver.findElement(By.name("email_address")).sendKeys("ramanadasdssaa@gmail.com");
-			driver.findElement(By.name("street_address")).sendKeys("Gogulapadu,Guntur");
+			driver.findElement(By.name("street_address")).sendKeys("Gog,Hyderabad");
 			driver.findElement(By.name("postcode")).sendKeys("523415");
-			driver.findElement(By.name("city")).sendKeys("guntur");
-			driver.findElement(By.name("state")).sendKeys("Andhrapradesh");
+			driver.findElement(By.name("city")).sendKeys("goa");
+			driver.findElement(By.name("state")).sendKeys("Delhi");
 			Select Dropdown = new Select(driver
 					.findElement(By.xpath(".//*[@id='bodyContent']/form/div/div[4]/table/tbody/tr[6]/td[2]/select")));
 			Dropdown.selectByVisibleText("India");
-			driver.findElement(By.name("telephone")).sendKeys("1764342");
-			driver.findElement(By.name("password")).sendKeys("venkata123");
-			driver.findElement(By.name("confirmation")).sendKeys("venkata123");
+			driver.findElement(By.name("telephone")).sendKeys("1234567");
+			driver.findElement(By.name("password")).sendKeys("sam123");
+			driver.findElement(By.name("confirmation")).sendKeys("sam123");
 			Thread.sleep(2000);
 			driver.findElement(By.id("tdb4")).click();
 			String ConformationMessage = driver.findElement(By.xpath(".//*[@id='bodyContent']/h1")).getText();
