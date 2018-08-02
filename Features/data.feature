@@ -13,5 +13,5 @@ Feature: Login in to gcr shop
 
     Examples: 
       | FirstName | LastName | Email                 |
-      | Ramana    | Reddy    | muttanaramana@gmail.com    |
+      | Ramana    | Reddy    | ssssssssssssa@gmail.com    |
       | Muttana   | Venkata  | ahddezf@gmail.com |
